@@ -1,0 +1,10 @@
+{
+  "nodes": [1, 2, 3, 4, 5],
+  "edges": [
+    { "source": 1, "destination": 2, "weight": 10 },
+    { "source": 2, "destination": 3, "weight": 15 },
+    { "source": 3, "destination": 4, "weight": 12 },
+    { "source": 4, "destination": 5, "weight": 8 },
+    { "source": 5, "destination": 1, "weight": 20 }
+  ]
+}
