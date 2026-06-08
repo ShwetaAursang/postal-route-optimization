@@ -1,0 +1,19 @@
+double efficiency =
+(
+    (originalDistance - optimizedDistance)
+    / (double)originalDistance
+) * 100;
+
+Console.WriteLine(
+$"Efficiency Improvement: {efficiency:F2}%");
+
+
+Output:
+
+Original Distance : 120 km
+
+Optimized Distance : 98 km
+
+Distance Saved : 22 km
+
+Efficiency Improvement : 18.33%
