@@ -1,0 +1,23 @@
+**Pages**
+Dashboard
+Upload Graph
+Route Optimization
+Results
+
+
+**Dashboard Example**
++----------------------------------+
+| Postal Route Optimization        |
++----------------------------------+
+
+Nodes: 25
+
+Edges: 40
+
+Original Distance: 350 km
+
+Optimized Distance: 290 km
+
+Savings: 60 km
+
+[Optimize Route]
