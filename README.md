@@ -48,7 +48,15 @@ The system uses the Chinese Postman Problem approach:
 * Multi-depot optimization
 * Interactive route dashboards
 
-## Author
+## Chinese Postman Algorithm
 
-Shweta Aursang
+```mermaid
+flowchart TD
+    A[Load Postal Network] --> B[Create Graph]
+    B --> C[Find Odd Degree Vertices]
+    C --> D[Compute Shortest Paths]
+    D --> E[Pair Odd Vertices]
+    E --> F[Generate Eulerian Circuit]
+    F --> G[Optimized Delivery Route]
+```
 
